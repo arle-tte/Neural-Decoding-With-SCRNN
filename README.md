@@ -7,8 +7,8 @@
  neurons work together over time by converting the relationship into simplicial complexes to make
  it more conveniently interpretable.
 ## Files Summary:
-> Simplicial convolutional neural networks (SCRNNs), combine simplicial convolutions with backend recurrently connected layers.
-> Decoded Neurons: grid cells and head direction (HD) cells.
+* Simplicial convolutional neural networks (SCRNNs), combine simplicial convolutions with backend recurrently connected layers.
+* Decoded Neurons: grid cells and head direction (HD) cells.
 > The neural activity is first defined on a simplicial complex via a pre-processing procedure and then fed to the SCRNN for decoding.
 > Comparisons to a feed forward neural network (FFNN) and a recurrent neural network (RNN).
 > main.py: SCRNN or SCNN by setting the RNN variable to `True` of `False` respectively
